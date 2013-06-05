@@ -1,0 +1,33 @@
+---
+abstract: 'Matching normalization for MARC::Field'
+author:
+  - 'Clay Fouts <cfouts@khephera.net>'
+build_requires:
+  MARC::Record: 0
+  Test::More: 0.88
+configure_requires:
+  Module::Build::Tiny: 0.023
+dynamic_config: 0
+generated_by: 'Dist::Milla version v1.0.2, Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: MARC-Field-Normalize-NACO
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+requires:
+  perl: 5.008005
+resources:
+  bugtracker: https://github.com/ctfliblime/MARC-Field-Normalize-NACO/issues
+  homepage: https://github.com/ctfliblime/MARC-Field-Normalize-NACO
+  repository: https://github.com/ctfliblime/MARC-Field-Normalize-NACO.git
+version: 0.01
+x_contributors:
+  - 'Clay Fouts <cfouts@liblime.com>'
