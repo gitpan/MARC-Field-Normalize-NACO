@@ -3,7 +3,9 @@ abstract: 'Matching normalization for MARC::Field'
 author:
   - 'Clay Fouts <cfouts@khephera.net>'
 build_requires:
+  List::MoreUtils: 0
   MARC::Record: 0
+  Method::Signatures: 0
   Test::More: 0.88
 configure_requires:
   Module::Build::Tiny: 0.023
@@ -28,6 +30,6 @@ resources:
   bugtracker: https://github.com/ctfliblime/MARC-Field-Normalize-NACO/issues
   homepage: https://github.com/ctfliblime/MARC-Field-Normalize-NACO
   repository: https://github.com/ctfliblime/MARC-Field-Normalize-NACO.git
-version: 0.02
+version: 0.03
 x_contributors:
   - 'Clay Fouts <cfouts@liblime.com>'
